@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D7FDD9"
+    tools:context=".GiftCard">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="400dp"
+        android:layout_height="450dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/bb" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="400dp"
+        android:layout_height="280dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="500dp"
+        android:contentDescription="@string/todo"
+        app:srcCompat="@drawable/aa" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="470dp"
+        android:text="@string/get_points_when_purchase_with_gift_card"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+
+</RelativeLayout>

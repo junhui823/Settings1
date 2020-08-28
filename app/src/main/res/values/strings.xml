@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">Settings1</string>
+    <string name="feedback">Feedback</string>
+    <string name="more">More</string>
+    <string name="inbox">Inbox</string>
+    <string name="customer_service">Customer Service</string>
+    <string name="store_locator">Store Locator</string>
+    <string name="follow_us">Follow Us</string>
+    <string name="gift_card">Gift Card</string>
+    <string name="app_settings">App Settings</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="sunway_velocity_mall_90_jalan_peel_maluri_55100_kuala_lumpur_federal_territory_of_kuala_lumpur">Sunway Velocity Mall 90 jalan peel maluri 55100 Kuala Lumpur Federal Territory of Kuala Lumpur.</string>
+    <string name="shabio_ec_sunway_velocity">Shabio EC Sunway Velocity</string>
+    <string name="ground_floor_sunway_pyramid_no_3_lot_g1_13a_jalan_pjs_11_15_bandar_sunway_47500_petaling_jaya_selangor">Ground Floor Sunway Pyramid no 3 lot g1 13a jalan pjs 11 15 bandar sunway 47500 Petaling Jaya Selangor.</string>
+    <string name="shabio_ec_sunway_pyramid">Shabio EC Sunway Pyramid</string>
+    <string name="lot_2_09_01a_168_bukit_bintang_street_bukit_bintang_55100_kuala_lumpur_federal_territory_of_kuala_lumpur">Lot 2 09 01a 168 bukit bintang street bukit bintang 55100 Kuala Lumpur Federal Territory of Kuala Lumpur.</string>
+    <string name="shabio_ec_pavillion_kuala_lumpur">Shabio EC Pavillion Kuala Lumpur</string>
+    <string name="help">Help</string>
+    <string name="policies">Policies</string>
+    <string name="languages">Languages</string>
+    <string name="country">Country</string>
+    <string name="english_default">English_default</string>
+    <string name="select_your_current_country">Select your current country</string>
+    <string name="you_havent_saved_anything_yet_dont_worry_its_easy_just_click_on_the_heart_icon_on_the_items_you_like_and_they_will_show_up_here">You havent saved anything yet, dont worry its easy just click on the heart icon on the items you like and they will show up here.</string>
+    <string name="you_have_no_favourites_yet">You have no favourites yet.</string>
+    <string name="favourite">Favourite</string>
+    <string name="please_contact_us_for_more_service">Please contact us for more service</string>
+    <string name="careline_1300_11_1313">Careline 1300-11-1313</string>
+    <string name="todo">TODO</string>
+    <string name="get_points_when_purchase_with_gift_card">Get POINTS when purchase with Gift Card!</string>
+    <string name="youtube">Youtube</string>
+    <string name="twitter">Twitter</string>
+    <string name="instagram">Instagram</string>
+    <string name="facebook">Facebook</string>
+    <string name="todo1">TODO1</string>
+    <string name="todo2">TODO2</string>
+    <string name="todo3">TODO3</string>
+    <string name="todo4">TODO4</string>
+
+
+</resources>

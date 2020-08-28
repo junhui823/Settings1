@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D7FDD9"
+    tools:context=".AppSettings"
+    tools:deviceIds="wear">
+
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/app_settings"
+        android:textColor="@android:color/black"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="140dp"
+        android:text="@string/select_your_current_country"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="230dp"
+        android:text="@string/english_default"
+        android:textColor="@android:color/black"
+        android:textSize="14sp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="110dp"
+        android:text="@string/country"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="200dp"
+        android:text="@string/languages"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="290dp"
+        android:text="@string/policies"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="370dp"
+        android:text="@string/help"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="53dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="310dp"
+        android:layout_marginTop="110dp"
+        android:background="@android:color/transparent"
+        android:drawableEnd="@drawable/ic_arrow"
+        android:drawableTint="@android:color/black" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="49dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="310dp"
+        android:layout_marginTop="200dp"
+        android:background="@android:color/transparent"
+        android:drawableEnd="@drawable/ic_arrow"
+        android:drawableTint="@android:color/black" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="49dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="310dp"
+        android:layout_marginTop="280dp"
+        android:background="@android:color/transparent"
+        android:drawableEnd="@drawable/ic_arrow"
+        android:drawableTint="@android:color/black" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="47dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="310dp"
+        android:layout_marginTop="360dp"
+        android:background="@android:color/transparent"
+        android:drawableEnd="@drawable/ic_arrow"
+        android:drawableTint="@android:color/black" />
+
+</RelativeLayout>

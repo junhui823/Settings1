@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D7FDD9"
+    tools:context=".storeLocator"
+    tools:deviceIds="wear">
+
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="130dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/store_locator"
+        android:textColor="@android:color/black"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="125dp"
+        android:text="@string/shabio_ec_pavillion_kuala_lumpur"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="308dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="155dp"
+        android:text="@string/lot_2_09_01a_168_bukit_bintang_street_bukit_bintang_55100_kuala_lumpur_federal_territory_of_kuala_lumpur"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="275dp"
+        android:text="@string/shabio_ec_sunway_pyramid"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="308dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="50sp"
+        android:layout_marginTop="310sp"
+        android:text="@string/ground_floor_sunway_pyramid_no_3_lot_g1_13a_jalan_pjs_11_15_bandar_sunway_47500_petaling_jaya_selangor"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="445dp"
+        android:text="@string/shabio_ec_sunway_velocity"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="308dp"
+        android:layout_height="58dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="475dp"
+        android:text="@string/sunway_velocity_mall_90_jalan_peel_maluri_55100_kuala_lumpur_federal_territory_of_kuala_lumpur"
+        android:textColor="@android:color/black"
+        android:textSize="16sp" />
+</RelativeLayout>

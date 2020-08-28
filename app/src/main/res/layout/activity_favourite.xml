@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginTop="25dp"
+        android:text="@string/favourite"
+        android:textColor="@android:color/black"
+        android:textSize="28sp"
+        tools:layout_editor_absoluteX="173dp"
+        tools:layout_editor_absoluteY="33dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="350dp"
+        android:layout_marginTop="25dp"
+        android:background="@android:color/transparent"
+        android:drawableEnd="@drawable/ic_close" />
+
+    <TextView
+        android:id="@+id/textView16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="230dp"
+        android:gravity="center_horizontal"
+        android:text="@string/you_have_no_favourites_yet"
+        android:textColor="#706F6F"
+        android:textSize="26sp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView16"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:text="@string/you_havent_saved_anything_yet_dont_worry_its_easy_just_click_on_the_heart_icon_on_the_items_you_like_and_they_will_show_up_here"
+        android:textSize="16sp" />
+</RelativeLayout>

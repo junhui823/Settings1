@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D7FDD9"
+    tools:context=".FollowUs">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/facebook"
+        android:layout_marginStart="35sp"
+        android:layout_marginTop="100sp"
+        tools:layout_editor_absoluteX="24dp"
+        tools:layout_editor_absoluteY="20dp"
+        android:contentDescription="@string/todo1" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/instagram"
+        android:layout_marginStart="35sp"
+        android:layout_marginTop="160sp"
+        tools:layout_editor_absoluteX="20dp"
+        tools:layout_editor_absoluteY="69dp"
+        android:contentDescription="@string/todo2" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/twitter"
+        android:layout_marginStart="35sp"
+        android:layout_marginTop="220sp"
+        tools:layout_editor_absoluteX="33dp"
+        tools:layout_editor_absoluteY="119dp"
+        android:contentDescription="@string/todo3" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/youtube"
+        android:layout_marginStart="35sp"
+        android:layout_marginTop="280sp"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="234dp"
+        android:contentDescription="@string/todo4" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="105sp"
+        android:layout_marginTop="100sp"
+        android:text="@string/facebook"
+        android:textColor="@android:color/black"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="105sp"
+        android:layout_marginTop="160sp"
+        android:text="@string/instagram"
+        android:textColor="@android:color/black"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="105sp"
+        android:layout_marginTop="220sp"
+        android:text="@string/twitter"
+        android:textColor="@android:color/black"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="105sp"
+        android:layout_marginTop="280sp"
+        android:text="@string/youtube"
+        android:textColor="@android:color/black"
+        android:textSize="22sp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140sp"
+        android:layout_marginTop="20sp"
+        android:text="@string/follow_us"
+        android:textColor="@android:color/black"
+        android:textSize="28sp" />
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="53dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="320dp"
+        android:layout_marginTop="90dp"
+        android:background="@android:color/transparent"
+        android:drawableEnd="@drawable/ic_arrow"
+        android:drawableTint="@android:color/black"
+        android:onClick="Facebook"
+        android:textColor="@android:color/black" />
+
+    <Button
+        android:id="@+id/button11"
+        android:layout_width="49dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="320dp"
+        android:layout_marginTop="150dp"
+        android:background="@android:color/transparent"
+        android:drawableEnd="@drawable/ic_arrow"
+        android:onClick="Instagram"
+        android:drawableTint="@android:color/black" />
+
+    <Button
+        android:id="@+id/button12"
+        android:layout_width="49dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="320dp"
+        android:layout_marginTop="210dp"
+        android:background="@android:color/transparent"
+        android:drawableEnd="@drawable/ic_arrow"
+        android:onClick="Twitter"
+        android:drawableTint="@android:color/black" />
+
+    <Button
+        android:id="@+id/button13"
+        android:layout_width="47dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="320dp"
+        android:layout_marginTop="270dp"
+        android:background="@android:color/transparent"
+        android:drawableEnd="@drawable/ic_arrow"
+        android:onClick="Youtube"
+        android:drawableTint="@android:color/black" />
+
+</RelativeLayout>

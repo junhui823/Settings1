@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D7FDD9"
+    tools:context=".Inbox">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="170dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/inbox"
+        android:textColor="@android:color/black"
+        android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35sp"
+        android:layout_marginTop="80sp"
+        android:text="It's Shabio Day!"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35sp"
+        android:layout_marginTop="115sp"
+        android:text="Good things come to those who shop with gift card! Get up to EXTRA 18% OFF when you shop and checkout
+                      with Shabio gift card today!" />
+
+    <TextView
+        android:id="@+id/textView28"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35sp"
+        android:layout_marginTop="205sp"
+        android:text="Up to 29% OFF"
+        android:textColor="@android:color/black"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView29"
+        android:layout_width="333dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35sp"
+        android:layout_marginTop="235sp"
+        android:text="Get Million Dollar Brands Discounts on Men Clothes! Shocking Sala starts NOW!" />
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="390sp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="190sp"
+        android:background="?android:attr/listDivider" />
+
+    <View
+        android:id="@+id/divider2"
+        android:layout_width="390sp"
+        android:layout_height="1dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="290sp"
+        android:background="?android:attr/listDivider" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35sp"
+        android:layout_marginTop="172sp"
+        android:text="Yesterday 12:42"
+        android:textSize="8sp" />
+
+    <TextView
+        android:id="@+id/textView31"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="35sp"
+        android:layout_marginTop="275sp"
+        android:text="Yesterday 10:31"
+        android:textSize="8sp" />
+
+</RelativeLayout>
